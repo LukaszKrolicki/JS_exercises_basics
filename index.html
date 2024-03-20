@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>TI-Lab2</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="skrypt.js"></script>
+</head>
+<body onload="funkcje(); zegarek(), setInterval(zegarek,1000)">
+<div id="kontener">
+    <div id="naglowek">
+        <h1>Nagłówek</h1>
+    </div>
+    <div id="srodek">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="kwadratowe.html">ax<sup>2</sup>+bx+c=0</a></li>
+                <li><a href="link3.html">Link3</a></li>
+            </ul>
+            <div id="newsy">
+                <p id="news1"></p>
+                <p id="news2"></p>
+            </div>
+        </div>
+        <div id="tresc">
+            <div id="inputs">
+                <p>Wpisz ile ma być liczb pierwszych</p>
+                <input placeholder="number" type="number" id="gNumber" name="wc"><br/>
+                <div id="przycisk">
+                    <input type="button" id="licz" value="Oblicz" onclick="sprawdzPierwsze()">
+                </div>
+
+                <div id="p1">
+                    <p>Tekst przzykłady</p>
+                    <input placeholder="wpisz tekst do manipulacji" type="tekst" id="gTekst" name="wc"><br/>
+                    <input placeholder="Regex/pattern" type="tekst" id="gReg" name="wc"><br/>
+                    <input placeholder="Regex params" type="tekst" id="g2Reg" name="wc"><br/>
+
+
+                </div>
+
+                <div id="p2">
+                    <input type="button" id="test" value="test()" onclick="wykonaj(1)">
+                    <input type="button" id="exec" value="exec()" onclick="wykonaj(2)">
+                    <input type="button" id="compile" value="compile()" onclick="wykonaj(3)">
+                </div>
+
+                <div id="p3">
+                    <input type="button" id="match" value="match()" onclick="wykonaj(4)">
+                    <input type="button" id="search" value="search()" onclick="wykonaj(5)">
+                    <input type="button" id="replace" value="replace()" onclick="wykonaj(6)">
+                </div>
+
+                <div id="p4">
+                    <input type="button" id="eval" value="eval()" onclick="wykonaj(7)">
+                    <input type="button" id="escape" value="escape()" onclick="wykonaj(8)">
+                </div>
+
+            </div>
+
+            <div id="results">
+
+            </div>
+        </div>
+    </div>
+    <div id="stopka">
+        &copy;2024 DG
+    </div>
+</div>
+</body>
+</html>

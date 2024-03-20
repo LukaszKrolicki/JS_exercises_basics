@@ -1,0 +1,44 @@
+.kontener{
+    display: flex;
+}
+
+.kalkulator{
+    flex: 50%;
+    background-color: #cccccc;
+}
+.wynik{
+    flex: 50%;
+    background: #888888;
+}
+
+.kolumna1{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.kolumna2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.kolumna3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.kolumna4{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.butt{
+    padding: 10px;
+    margin: 2px;
+    height: 45px;
+    width: 60px;
+}

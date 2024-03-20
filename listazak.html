@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="listazak.css"/>
+</head>
+<body>
+    <div style="background: rgb(255,0,0,0.2); text-align: center; padding: 10px; color: white">
+        <h1>Stwórz listę zakupów</h1>
+    </div>
+
+    <div class="kontener">
+        <div class="polecane">
+            <h3>Polecamy</h3>
+            <ul>
+                <li>Banany</li>
+                <li>Borówki</li>
+                <li>Ogórki</li>
+            </ul>
+        </div>
+
+        <div class="produkt">
+
+            <form id="dane" class="pro" name="dane">
+                <p>typ:</p>
+                <input placeholder="a" type="text" id="typ" name="wa">
+                <p>nazwa:</p>
+                <input placeholder="b" type="text" id="nazwa" name="wb">
+                <p>ilosc:</p>
+                <input placeholder="c" type="number" id="ilosc" name="wc">
+            </form>
+
+            <div id="przycisk" class="butt" style="margin-top: 10px;">
+                <input type="button" id="licz" value="Dodaj" onclick="dodajZ()">
+            </div>
+
+        </div>
+
+        <div class="kontener2">
+            <div class="Lista produktów">
+                <p>Lista produktów:</p>
+                <ul id="lista">
+
+                </ul>
+            </div>
+            <div id="clear">
+                <input type="button" id="clearProducts" value="Wyczyść">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>LK</p>
+    </div>
+
+</body>
+<script type="text/javascript" src="listazak.js"></script>
+
+</html>

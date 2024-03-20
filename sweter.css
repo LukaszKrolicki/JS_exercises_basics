@@ -1,0 +1,112 @@
+.navbar{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.linki{
+    flex: 90%;
+    display: flex;
+
+}
+
+.linki a{
+
+    text-decoration: none;
+    background: bisque;
+    margin:1px;
+}
+
+.linki li{
+    list-style: none;
+}
+
+.linkiR{
+    flex: 10%;
+    display: none;
+    justify-content: flex-end;
+}
+
+.linkiR li{
+    list-style: none;
+}
+
+.linkiR a{
+    text-decoration: none;
+    background: bisque;
+    margin:1px;
+
+}
+
+.navbarHidden{
+    display: none;
+    width: 10%;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.linki2 li{
+    list-style: none;
+    text-decoration: none;
+    padding: 2px;
+    margin-bottom: 1px;
+    background-color:black;
+
+}
+
+.linki2 a{
+    text-decoration: none;
+}
+
+.wiecejR{
+    margin: 10px;
+
+    justify-content: center;
+    display: none;
+}
+
+.kontener{
+    display: flex;
+
+}
+
+.oMnie{
+    padding: 10px;
+    background: #dddddd;
+    flex:20%;
+}
+
+.Tworzenie{
+    padding: 10px;
+    background: #aaaaaa;
+    flex: 50%;
+}
+
+.wynik{
+    padding: 10px;
+    background: #dddddd;
+    flex: 30%;
+}
+
+@media only screen and (max-width: 640px){
+    .linki{
+        display: none;
+    }
+
+    .linkiR{
+        display: flex;
+        justify-content: center;
+        flex: 100%;
+    }
+
+    .oMnie{
+        display: none;
+    }
+
+    .wiecejR{
+        display: flex;
+    }
+
+    .kontener{
+        flex-direction: column;
+    }
+}

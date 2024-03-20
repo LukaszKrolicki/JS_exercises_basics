@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="sweter.css"/>
+    <script type="text/javascript" src="sweter.js"></script>
+
+</head>
+<body>
+
+<div style="background: yellow; text-align: center;">
+    <h1>Oblicz cene swetra</h1>
+</div>
+
+<div class="navbar">
+    <div class="linki">
+        <li><a href="">link1</a></li>
+        <li><a href="">link2</a></li>
+        <li><a href="">link3</a></li>
+        <li><a href="">link4</a></li>
+    </div>
+
+    <div class="linkiR">
+        <input type="button" id="rozwin" value="Rozwin opcje" onclick="rozwinOpcje()">
+    </div>
+</div>
+
+<div class="navbarHidden" id="nv">
+    <div class="linki2">
+        <li><a href="">link1</a></li>
+        <li><a href="">link2</a></li>
+        <li><a href="">link3</a></li>
+        <li><a href="">link4</a></li>
+    </div>
+</div>
+
+<div class="wiecejR">
+    <input type="button" id="rozwin2" value="Rozwin o mnie" onclick="rozwinOmnie()">
+</div>
+
+<div class="kontener">
+    <div class="oMnie" id="omnie">
+        <p>O mnie</p>
+        <ul>
+            <li>historia</li>
+            <li>cennik</li>
+            <li>wiecej</li>
+        </ul>
+    </div>
+
+    <div class="Tworzenie">
+        <div class ="typ">
+            <p>Typ</p>
+            <input placeholder="koszula/sweter" type="text" id="typ" name="wb">
+        </div>
+
+        <div class ="zczego">
+            <p>Z czego zrobione</p>
+            <input placeholder="bawelna/skora" type="text" id="zCzego" name="wb">
+        </div>
+
+        <div class ="ilecm">
+            <p>Ile cm</p>
+            <input placeholder="Ile cm" type="number" id="cm" name="wb">
+        </div>
+
+        <input type="button" id="oblicz" value="Rozwin o mnie" onclick="oblicz()">
+    </div>
+
+    <div class="wynik" id="wynik">
+        <p>Tutaj powinien pojawić się wynik</p>
+    </div>
+
+</div>
+
+<div class="footer" style="text-align: center; background: antiquewhite">
+    <p> Lukasz K</p>
+</div>
+</body>
+</html>

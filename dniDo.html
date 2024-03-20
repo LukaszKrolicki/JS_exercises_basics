@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>TI-Lab2</title>
+    <link rel="stylesheet" type="text/css" href="dniDoo.css"/>
+
+<!--    <script type="text/javascript" src="kwadratoweKlasowe.js"></script>-->
+</head>
+<body onload="podpiecie();">
+    <div style="background: yellow;padding: 10px ; text-align: center">
+        <h1>Obliczanie dnia urodzin</h1>
+    </div>
+
+    <div class="k1" id="kontener">
+        <div class="d1" id="daneD">
+            <form id="daneF" name="dane">
+                <input placeholder="dni" type="number" id="dni" name="wa">
+                <input placeholder="miesiac" type="number" id="miesiac" name="wb">
+                <input placeholder="rok" type="number" id="rok" name="wc"><br/>
+                <div id="przycisk">
+                    <input type="button" id="licz" value="Oblicz">
+                </div>
+            </form>
+        </div>
+        <div class="w1" id="wynik">
+            <h3>Tutaj ukaże się wynik</h3>
+        </div>
+    </div>
+
+    <div class="fotter" id="fotter">
+        <p>siema</p>
+    </div>
+</body>
+
+<script type="text/javascript" src="dniDoo.js"></script>
+</html>

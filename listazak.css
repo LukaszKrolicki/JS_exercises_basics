@@ -1,0 +1,38 @@
+.kontener
+{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+
+}
+
+.polecane{
+    padding: 10px;
+    flex: 30%;
+    background-color: #cccccc;
+}
+.produkt{
+    flex: 40%;
+    padding: 10px;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
+
+.kontener2{
+    flex:30%;
+    padding: 10px;
+    background-color: #cccccc;
+}
+
+.footer{
+    text-align: center;
+    background-color: aquamarine;
+}

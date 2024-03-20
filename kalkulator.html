@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="kalkulator.css"/>
+</head>
+<body>
+<div style="background: yellow; padding: 10px">
+    <h1>Prosty kalkulator dla dwoch liczb</h1>
+</div>
+
+<div class="kontener">
+    <div class="kalkulator">
+        <div class="kolumna1">
+            <input type="button"  class="butt" id="1" value="1" onclick="przycisk(1)">
+            <input type="button" class="butt"  id="2" value="2" onclick="przycisk(2)">
+            <input type="button"  class="butt"  id="3" value="3" onclick="przycisk(3)">
+        </div>
+
+        <div class="kolumna2">
+            <input type="button" class="butt"  id="4" value="4" onclick="przycisk(4)">
+            <input type="button" class="butt"  id="5" value="5" onclick="przycisk(5)">
+            <input type="button" class="butt"  id="6" value="6" onclick="przycisk(6)">
+        </div>
+
+        <div class="kolumna3">
+            <input type="button" class="butt"  id="+" value="+" onclick="plus()">
+            <input type="button" class="butt"  id="-" value="-" onclick="minus()">
+            <input type="button" class="butt"  id="*" value="*" onclick="multiply()">
+        </div>
+        <div class="kolumna4">
+            <input type="button" class="butt"  id="=" value="=", onclick="oblicz()">
+        </div>
+    </div>
+
+    <div class="wynik" id="w">
+        <p>Tu pojawi się wynik</p>
+    </div>
+</div>
+<script type="text/javascript" src="kalk.js"></script>
+</body>
+</html>

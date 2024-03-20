@@ -1,0 +1,36 @@
+.body{
+    font-family: Arial, serif;
+}
+.k1{
+    display: flex;
+
+}
+.d1{
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    background: #eeeeee;
+}
+.w1{
+    flex: 50%;
+
+    background: #888888;
+}
+
+.w1 h3{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.d1 form{
+    display: flex;
+    flex-direction: column;
+}
+.d1 input{
+    margin-top: 10px;
+}
+
+.fotter{
+    background: bisque;
+    text-align: center;
+}
